@@ -1,0 +1,26 @@
+[project]
+name = "lab5-ds"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ayalaSL", email = "iris@softlogic.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "ipykernel>=6.31.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.9.4",
+    "nltk>=3.9.2",
+    "numpy>=2.0.2",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.6.1",
+    "wordcloud>=1.9.6",
+]
+
+[project.scripts]
+lab5-ds = "lab5_ds:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
